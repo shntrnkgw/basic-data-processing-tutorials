@@ -60,3 +60,13 @@ Follow the instruction in the previous section.
 Although you can write your Python code in Notepad and run it from the command prompt, it's definitely better to use a good editor. 
 
 Long story short, [Visual Studio Code](https://code.visualstudio.com/) (VSCode for short) is the best free editor for programming today (in my opinion). Go to the website, download the installer, and install it. 
+
+### An important setting in VSCode
+
+By default, when you run a Python code from VSCode, it will be executed at the current directory of the terminal. This may be different from the code file's location. 
+
+To ensure that the Python code runs in that code file's folder, go to File > Preferences > Settings in the menubar (or Code > Preferences > Settings in Mac). 
+
+In the Settings, type `python execute in file dir` in the search box. Turn on the option appeared. 
+
+<img src="images/vscode-setting.png" width="720">
