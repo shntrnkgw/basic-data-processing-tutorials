@@ -20,4 +20,4 @@ VSCode has a feature called *workspace*. It's like a virtual folder, into which 
 
 First, show the Explorer side bar. 
 
-<img src="imnages/vscode-show-explorer.png" width="720">
+<img src="images/vscode-show-explorer.png" width="720">
