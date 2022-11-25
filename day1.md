@@ -69,4 +69,4 @@ To ensure that the Python code runs in that code file's folder, go to File > Pre
 
 In the Settings, type `python execute in file dir` in the search box. Turn on the option appeared. 
 
-<img src="images/vscode-setting.png" width="720">
+<img src="images/vscode-setting.png" width="600">
