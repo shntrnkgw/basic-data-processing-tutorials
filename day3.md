@@ -29,9 +29,9 @@ Note that the package is installed only in the current environment.
 
 To install everything at once, `conda activate` the target environment and then
 
-    conda install numpy scipy matplotlib hicsv-python
+    conda install -c conda-forge numpy scipy matplotlib hicsv-python
 
-You will notice that conda installs other packages that are required by these four packages automatically. 
+Here, `-c conda-forge` is added to search for the packages in `conda-forge` repository. You will notice that conda installs other packages that are required by these four packages automatically. 
 
 ## 3. Verify that the packages are installed and ready
 
@@ -50,6 +50,10 @@ and press Enter. If `>>>` appears in the next line without error messages, it's 
     import hicsv
 
 You can notice that even if you installed `hicsv-python` package, what you `import` is `hicsv`. Actually, `hicsv` is a *module* in the package. But these terms are often not strictly used. 
+
+To exit from the interactive Python interpreter, 
+
+    exit()
 
 
 ## 4. Notes

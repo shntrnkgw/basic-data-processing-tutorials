@@ -59,7 +59,11 @@ Follow the instruction in the previous section.
 
 Although you can write your Python code in Notepad and run it from the command prompt, it's definitely better to use a good editor. 
 
-Long story short, [Visual Studio Code](https://code.visualstudio.com/) (VSCode for short) is the best free editor for programming today (in my opinion). Go to the website, download the installer, and install it. 
+Long story short, [Visual Studio Code](https://code.visualstudio.com/) (VSCode for short) is the best free editor for programming today (in my opinion). Go to the website, download the installer, and install it.  
+
+Next, run VSCode and go to Extensions tab. Search for Python extension and install it. 
+
+<img src="images/vscode-extensions.png" width="600">
 
 ### An important setting in VSCode
 
@@ -68,5 +72,21 @@ By default, when you run a Python code from VSCode, it will be executed at the c
 To ensure that the Python code runs in that code file's folder, go to File > Preferences > Settings in the menubar (or Code > Preferences > Settings in Mac). 
 
 In the Settings, type `python execute in file dir` in the search box. Turn on the option appeared. 
+The option may not appear right after you install Python extension. 
+In that case, restart the VSCode. 
 
-<img src="images/vscode-setting.png" width="600">
+<img src="images/vscode-setting.png" width="600"> 
+
+### Additional setting on Windows
+
+The integrated terminal in VSCode is set to PowerShell by default. 
+To use conda in the integrated terminal in VSCode, 
+
+1. Press `Ctrl`+`Shift`+`P` to open Command Palette
+2. Enter `select default profile`. 
+3. Select the command `Terminal: Select Default Profile`
+4. Select `Command Prompt` and hit Enter. 
+
+## 4. Install Git
+
+Git is a popular version control software. You may not use it 
