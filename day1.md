@@ -86,7 +86,3 @@ To use conda in the integrated terminal in VSCode,
 2. Enter `select default profile`. 
 3. Select the command `Terminal: Select Default Profile`
 4. Select `Command Prompt` and hit Enter. 
-
-## 4. Install Git
-
-Git is a popular version control software. You may not use it 
