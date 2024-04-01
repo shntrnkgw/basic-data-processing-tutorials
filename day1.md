@@ -2,6 +2,12 @@
 
 Here I show you a minimal set of tools we're going to need in this series of tutorials. Let's get started!
 
+## 0. TL;DR
+- Install conda ([Miniconda](https://docs.conda.io/en/latest/miniconda.html) is handy)
+- Create virtual environment with conda
+- Install [Visual Studio Code](https://code.visualstudio.com/)
+- Install Python extension in Visual Studio Code
+
 ## 1. Install conda
 
 First, we're going to install Python because that's the main language used in this tutorial series. 
