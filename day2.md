@@ -39,7 +39,7 @@ Since this is the situation in my PC right now, there are many environments. You
 
 Now, VSCode can run your code in the `first-python-code` using Python in `my_first_env`. 
 
-## Write and run the code
+## 4. Write and run the code
 
 In the Explorer side bar, right click on the folder -> New File to create a new file. Name it as, for example, `helloworld.py`. 
 
@@ -58,3 +58,14 @@ Click the little play button at the upper right corner. The code will run and yo
 <img src="images/vscode-ran.png" width="600">
 
 Congratulations! You have ran your first ever Python code. 
+
+## 5. Learn the basics
+
+If you are very new to programming, I highly recommend to learn the basics of Python language before going into more advanced topics featured in e.g., day 4 of this tutorial course. 
+
+For example, [the official Python tutorial](https://docs.python.org/3/tutorial/index.html) is a good start point. 
+Here are some topics in the official tutorial that I recommend: 
+- [3. An Informal Introduction to Python](https://docs.python.org/3/tutorial/introduction.html)
+- [4. More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html)
+- [5. Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
+- [7. Input and Output](https://docs.python.org/3/tutorial/inputoutput.html)
