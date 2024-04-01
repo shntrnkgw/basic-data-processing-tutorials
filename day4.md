@@ -1,4 +1,4 @@
-# Basic data processing tutorials Day 4: Get familiar with NumPy and matplotlib
+# Basic data processing tutorials Day 4: Get familiarized with NumPy and matplotlib
 
 ## Introduction to NumPy: Why not use lists?
 We often have to deal with a series of values, rather than a single value. For example, the IR spectroscopy data would consist of two long series containing the wavenumber values and corresponding absorbance values. 
@@ -70,6 +70,8 @@ See? This is handy. You can do much complicated operations. Add the following li
     print(sintheta)
 ```
 
+This is just a very basic functionality of NumPy. You are highly encouraged to go through a tutorial (e.g., [NumPy quickstart](https://numpy.org/doc/stable/user/quickstart.html)). 
+
 ## 3. Matplotlib hands-on
 Just looking at printed values is not fun at all.
 Now let's learn how to visualize the data. 
@@ -95,3 +97,9 @@ if __name__ == "__main__":
     # show the plotting canvas
     pyplot.show()
 ```
+
+You will see a window popping up. 
+Note that you should close the window to terminate the program. You can run another script only after terminating the current one. 
+
+Like NumPy, matplotlib is a massive package and we cannot cover everything here. 
+You are encouraged to go through a tutorial (e.g., [matplotlib quick start guide](https://matplotlib.org/stable/users/explain/quick_start.html#quick-start)). 
