@@ -6,7 +6,7 @@
 
 [Day 3: Install packages](day3.md)
 
-[Day 4: Get familiar with NumPy and matplotlib](day4.md)
+[Day 4: Get familiarized with NumPy and matplotlib](day4.md)
 
 [Day 5: Read and write files](day5.md) (WIP)
 
